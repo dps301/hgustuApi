@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7237bc9b-1a36-4dc8-b452-9ccbe99995ac" name="aws" url="http://52.78.230.42">
+        <fileTransfer host="52.78.230.42" port="22" privateKey="$PROJECT_DIR$/../../tplan.pem" rootFolder="/home/ubuntu/stu" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9b03b9ef-92f7-42fe-b5e3-f9bc01c092e7" name="52.78.162.63" url="http://52.78.162.63">
+        <fileTransfer host="52.78.162.63" port="22" privateKey="$PROJECT_DIR$/../../dow/test.pem" rootFolder="/home/ubuntu" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
